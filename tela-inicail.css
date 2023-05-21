@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabecalho {
+    background-color: #0088FF;
+    height: 70px;
+}
+.cabecalho img{
+height: 65px;
+}
+.barra-lateral input{
+    display: flex;
+    height: 100vh;
+    border-width: 5px;
+    border-color:#9d9d9d ;
+    border-style: solid;
+    background-color:#C3BFBF ;
+}
+.barra-superior input{
+    display: flex;
+    margin-left: 167px;
+    margin-top: -783px;
+    width: 87.2vw;
+    height: 35px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #9d9d9d;
+    background-color:#C3BFBF ;
+}
+h1{
+    display: flex;
+    align-items: center;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 60px;
+    padding-top: 100px;
+    margin-right: 720px;
+    margin-left: 250px;
+    margin-bottom: -100px;
+}
+.notas-recentes{
+    /* padding-left: 250px; */
+    margin-right: 720px;
+    margin-left: 250px;
+    margin-top: -250px;
+}
+.notas-recentes p{
+    display: flex;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 20px;
+    margin-top: 7px;
+}
+.Grafico{
+    display: flex;
+    margin-left: 810px;
+
+}
+.Grafico img{
+    width: 680px;
+    
+}
