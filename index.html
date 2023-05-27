@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="pr-br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link da biblioteca para adição dos icones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="relatorio.css">
     <title>SCNF-e</title>
 </head>
 <body>
@@ -11,7 +14,206 @@
     <section id="login"></section>
     <section id="esqueceu-senha"></section>
     <section id="tela-inicial"></section>
-    <section id="tela-nfe"></section>
+    <section id="tela-nfe">
+        <header id="cabecalho">
+            <img src="assets/Group 26.png" alt="ptiicon">
+            <i class="fas fa-expand"></i>
+            <button id="tela-cheia">Tela Cheia</button>
+        </header>
+       <nav>
+        <ul>
+        <li>
+            <a href="#" class="logo">
+                <img src="assets/logo.jpg" alt="logoprovisoria">
+                <span class="nav-item">SCNF-e</span>
+            </a>
+        </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-home"></i>
+                    <span class="nav-item">Início</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-file-invoice"></i>
+                    <span class="nav-item">NF-e</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-cog"></i>
+                    <span class="nav-item">Configuração</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-upload"></i>
+                    <span class="nav-item">Enviar Arquivos</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-book"></i>
+                    <span class="nav-item">Guia Rápido</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-user"></i>
+                    <span class="nav-item">Usuário</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <span class="nav-item">Sair</span>
+                </a>
+            </li>
+        </ul>
+       </nav>
+
+       <div class="container">
+          <div class="relatorio-nfe">
+            <i class="fas fa-file-invoice"></i>
+            <p>Relatório: NF-e</p>
+          </div>
+          <div class="cnpj">
+            <input type="text" name="search" id="search" placeholder="CNPJ">
+            <input type="text" name="data" id="data" placeholder="Data de Emissão">
+          </div>
+        </div>
+       
+            <div class="agrupar">
+                <p>ARRASTE PARA AGRUPAR AS COLUNAS</p>
+                <input type="text" name="search" id="search" placeholder="PESQUISAR TODOS OS CAMPOS">
+            </div>
+           
+            <div class="tabela">
+                <table>
+                    <thead>
+                        <tr>
+                            <th><input type="checkbox"></th>
+                            <th>Cancelada</th>
+                            <th>Razão Social</i></th>
+                            <th>CNPJ</th>
+                            <th>NR.NF-e</th>
+                            <th>Total</th>
+                            <th>Chave</th>
+                            <th>Data de Emissão</th>
+                            <th>UF Origem</th>
+                            <th>Tipo de Nota</th>
+                            <th>Importar</th>
+                            <th>Exportar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td><i class="fas fa-search"></i></td>
+                            <td><i class="fas fa-search"></i></td>
+                            <td><i class="fas fa-search"></i></td>
+                            <td><i class="fas fa-search"></i></td>
+                            <td><i class="fas fa-search"></i></td>
+                            <td><i class="fas fa-search"></i></td>
+                            <td><i class="fas fa-search"></i></td>
+                            <td><i class="fas fa-search"></i></td>
+                            <td><i class="fas fa-search"></i></td>
+                            <td><i class="fas fa-search"></i></td>
+                            <td><i class="fas fa-search"></i></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>Não</td>
+                            <td>Uniamérica</td>
+                            <td>42.951.428/3458-05</td>
+                            <td>2023.1203</td>
+                            <td>R$ 869,00</td>
+                            <td>56.987.123/0000-00</td>
+                            <td>27/02/2023</td>
+                            <td>Paraná</td>
+                            <td>Serviços</td>
+                            <td><i class="fas fa-file-import"></i></td>
+                            <td><i class="fas fa-file-export"></i></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>Não</td>
+                            <td>Uniamérica</td>
+                            <td>42.951.428/3458-05</td>
+                            <td>2023.1203</td>
+                            <td>R$ 869,00</td>
+                            <td>56.987.123/0000-00</td>
+                            <td>27/02/2023</td>
+                            <td>Paraná</td>
+                            <td>Serviços</td>
+                            <td><i class="fas fa-file-import"></i></td>
+                            <td><i class="fas fa-file-export"></i></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>Não</td>
+                            <td>Uniamérica</td>
+                            <td>42.951.428/3458-05</td>
+                            <td>2023.1203</td>
+                            <td>R$ 869,00</td>
+                            <td>56.987.123/0000-00</td>
+                            <td>27/02/2023</td>
+                            <td>Paraná</td>
+                            <td>Serviços</td>
+                            <td><i class="fas fa-file-import"></i></td>
+                            <td><i class="fas fa-file-export"></i></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>Não</td>
+                            <td>Uniamérica</td>
+                            <td>42.951.428/3458-05</td>
+                            <td>2023.1203</td>
+                            <td>R$ 869,00</td>
+                            <td>56.987.123/0000-00</td>
+                            <td>27/02/2023</td>
+                            <td>Paraná</td>
+                            <td>Serviços</td>
+                            <td><i class="fas fa-file-import"></i></td>
+                            <td><i class="fas fa-file-export"></i></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>Não</td>
+                            <td>Uniamérica</td>
+                            <td>42.951.428/3458-05</td>
+                            <td>2023.1203</td>
+                            <td>R$ 869,00</td>
+                            <td>56.987.123/0000-00</td>
+                            <td>27/02/2023</td>
+                            <td>Paraná</td>
+                            <td>Serviços</td>
+                            <td><i class="fas fa-file-import"></i></td>
+                            <td><i class="fas fa-file-export"></i></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>Não</td>
+                            <td>Uniamérica</td>
+                            <td>42.951.428/3458-05</td>
+                            <td>2023.1203</td>
+                            <td>R$ 869,00</td>
+                            <td>56.987.123/0000-00</td>
+                            <td>27/02/2023</td>
+                            <td>Paraná</td>
+                            <td>Serviços</td>
+                            <td><i class="fas fa-file-import"></i></td>
+                            <td><i class="fas fa-file-export"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+                <footer>
+                    <i class="fas fa-filter"></i>
+                    <button id="criar-filtro">Criar Filtro</button>
+                </footer>
+        </section>
     <section id="configuracao"></section>
     <section id="enviar-documentos"></section>
     <section id="guia-rapido"></section>
