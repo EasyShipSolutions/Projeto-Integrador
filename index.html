@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link para a inclusão da biblioteca de icone-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="averbacao.css">
     <title>SCNF-e</title>
 </head>
 <body>
@@ -12,6 +15,185 @@
     <section id="esqueceu-senha"></section>
     <section id="tela-inicial"></section>
     <section id="tela-nfe"></section>
+    <section id="eventos-averbacao">
+        <header id="cabecalho1">
+            <img src="assets/Group 26.png" alt="ptiicon">
+            <i class="fas fa-expand"></i>
+            <button id="tela-cheia1">Tela Cheia</button>
+        </header>
+       <nav>
+        <ul>
+        <li>
+            <a href="#" class="logo1">
+                <img src="assets/logo.jpg" alt="logoprovisoria">
+                <span class="nav-item">SCNF-e</span>
+            </a>
+        </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-home"></i>
+                    <span class="nav-item">Início</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-file-invoice"></i>
+                    <span class="nav-item">NF-e</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-cog"></i>
+                    <span class="nav-item">Configuração</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-upload"></i>
+                    <span class="nav-item">Enviar Arquivos</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-book"></i>
+                    <span class="nav-item">Guia Rápido</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-user"></i>
+                    <span class="nav-item">Usuário</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <span class="nav-item">Sair</span>
+                </a>
+            </li>
+        </ul>
+       </nav>
+
+       <div class="container1">
+          <div class="relatorio-nfe1">
+            <i class="fas fa-file-invoice"></i>
+            <p>Relatório: NF-e</p>
+          </div>
+          <div class="cnpj1">
+            <input type="text" name="search" id="search" placeholder="CNPJ">
+            <input type="text" name="data" id="data" placeholder="Data de Emissão">
+          </div>
+        </div>
+       
+            <div class="agrupar1">
+                <p>ARRASTE PARA AGRUPAR AS COLUNAS</p>
+                <input type="text" name="search" id="search" placeholder="PESQUISAR TODOS OS CAMPOS">
+            </div>
+           
+            <div class="tabela1">
+                <table>
+                  <thead>
+                    <tr>
+                      <th><input type="checkbox"></th>
+                      <th>N° doc. Fiscal</th>
+                      <th>Data de emissão doc fiscal</th>
+                      <th>Fornecedor</th>
+                      <th>Doc. acessório (N° do PC/FAP)</th>
+                      <th>Coluna1</th>
+                      <th>Aquisição de Produto ou Serviço</th>
+                      <th>Data Recebim. Processo/Produto</th>
+                      <th>Data Retirada do Produto</th>
+                      <th>RESPONSAVEL / ASSINATURA</th>
+                      <th>DATA QUE INSERIU PARA VALIDAÇÃO</th>
+                      <th>Qtd de dias que o Gestor levou para assinar</th>
+                      <th>Editar</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td><i class="fas fa-search"></i></td>
+                        <td><i class="fas fa-search"></i></td>
+                        <td><i class="fas fa-search"></i></td>
+                        <td><i class="fas fa-search"></i></td>
+                        <td><i class="fas fa-search"></i></td>
+                        <td><i class="fas fa-search"></i></td>
+                        <td><i class="fas fa-search"></i></td>
+                        <td><i class="fas fa-search"></i></td>
+                        <td><i class="fas fa-search"></i></td>
+                        <td><i class="fas fa-search"></i></td>
+                        <td><i class="fas fa-search"></i></td>
+                        <td><i class="fas fa-search"></i></td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox"></td>
+                      <td>Célula 2</td>
+                      <td>Célula 3</td>
+                      <td>Célula 4</td>
+                      <td>Célula 5</td>
+                      <td>Célula 6</td>
+                      <td>Célula 7</td>
+                      <td>Célula 8</td>
+                      <td>Célula 9</td>
+                      <td>Célula 10</td>
+                      <td>Célula 11</td>
+                      <td>Célula 12</td>
+                      <td><i class="fas fa-pencil-alt"></i></td>
+                    </tr>
+                    <!-- Repita a linha abaixo para as demais linhas -->
+                    <tr>
+                      <td><input type="checkbox"></td>
+                      <td>Célula 2</td>
+                      <td>Célula 3</td>
+                      <td>Célula 4</td>
+                      <td>Célula 5</td>
+                      <td>Célula 6</td>
+                      <td>Célula 7</td>
+                      <td>Célula 8</td>
+                      <td>Célula 9</td>
+                      <td>Célula 10</td>
+                      <td>Célula 11</td>
+                      <td>Célula 12</td>
+                      <td><i class="fas fa-pencil-alt"></i></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>Célula 2</td>
+                        <td>Célula 3</td>
+                        <td>Célula 4</td>
+                        <td>Célula 5</td>
+                        <td>Célula 6</td>
+                        <td>Célula 7</td>
+                        <td>Célula 8</td>
+                        <td>Célula 9</td>
+                        <td>Célula 10</td>
+                        <td>Célula 11</td>
+                        <td>Célula 12</td>
+                        <td><i class="fas fa-pencil-alt"></i></td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox"></td>
+                        <td>Célula 2</td>
+                        <td>Célula 3</td>
+                        <td>Célula 4</td>
+                        <td>Célula 5</td>
+                        <td>Célula 6</td>
+                        <td>Célula 7</td>
+                        <td>Célula 8</td>
+                        <td>Célula 9</td>
+                        <td>Célula 10</td>
+                        <td>Célula 11</td>
+                        <td>Célula 12</td>
+                        <td><i class="fas fa-pencil-alt"></i></td>
+                      </tr>
+                  </tbody>
+                </table>
+              </div>
+                <footer>
+                    <i class="fas fa-filter"></i>
+                    <button id="criar-filtro">Criar Filtro</button>
+                </footer>
+    </section>
     <section id="configuracao"></section>
     <section id="enviar-documentos"></section>
     <section id="guia-rapido"></section>
